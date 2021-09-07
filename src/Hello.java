@@ -1,39 +1,38 @@
+import java.util.Scanner;
 
 public class Hello {
 
-    //variable types
-    //int ->integer buyu buhel too
-    //double butarhai too
-    //char -> character buyu temdegt
-    // ' -> single quotation mark
-    // " -> double quotation mark
-    //String -> collection of chars -> ug oguulber (temdegtuudiin tsugluulga)
-    //boolean  -> unen/hudal (true/false) -
-    //= -> assignment operator suulgaj ogoh uildel
     public static void main(String[] args){
-        //declare -> zarlan tunhaglah
-        int x = 15;
-        double y = 15.5;
-        char ch = '$';
-        String  word = "s;qj 3m4i tpw495";
-        boolean check = true;
-
         int a = 15;
         int b = 20;
-        int sum = a+b;
+        long c = 1111111111111111111l;
 
-        double u = 15;
-        double u1 = 20;
-        int something = a * b + sum - a / b;
-        int something1 = a/b;
+        Scanner input = new Scanner(System.in);
 
- //       System.out.println("u / u1 =" + u / u1);
+        if(b != a){
+//            System.out.println("a is bigger than b");
+        }else{
+//            System.out.println("b is greater than a");
+        }
+        // == is equal
+        // != is not equal
+        // >= <= < > greater than or less than operators
+//        String name;
+//        int age;
+//        System.out.print("Enter your name: ");
+//        name = input.nextLine();
+//        name = input.next();
+//        System.out.print("Enter your age: ");
+//        age = input.nextInt();
+//
+//        System.out.println("Hello " + name + " nice to meet you \nYou born in year of " + (2021-age) + ".");
+        String answer;
+        System.out.println("Hello how are you? ");
+        answer = input.nextLine();
+        if(answer.equals("good how are you?")){
+            System.out.println("i am good thanks for asking");
+        }
 
-        String oguulber = "hello";
-        oguulber = 7 + 10 + oguulber;
-        System.out.println(oguulber);
-        oguulber = oguulber + 7 * 10;
-        System.out.println(oguulber);
 
     }
 }
