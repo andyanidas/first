@@ -32,6 +32,8 @@ public class Calcul {
         }else{
             System.out.println("Error You haven't entered a valid operator!!");
         }
+        
+
 
         /*
         * too g hoorond n haritsuulahdaa  ><  == != zereg op ashiglaj bolno!!
@@ -63,7 +65,15 @@ public class Calcul {
         * I am robot who are you?
         *
         * */
-        System.out.println();
+
+        /* homework 2
+        hereglehchees 3n too asuugaad hamhiin ih toog n olood hevlej gargaj ireh program bich
+        enter first num: 5
+        enter second num: 15
+        enter third num: 9
+        the biggest num is : 15
+        *
+        * */
 
 
     }
