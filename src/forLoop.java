@@ -21,15 +21,10 @@ public class forLoop {
         for(int i=userInput ; i>0 ; i--){ //userInput = 50
             System.out.print(i + " ");
         }
-
 //        i = i + 1 -> i++ post increment
 //        i = i + 1 -> ++i pre increment
 //        i = i - 1 -> i-- post decrement
 //        i = i - 1 -> --i pre decrement
-
-
-
-
     }
 }
 //
