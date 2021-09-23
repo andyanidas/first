@@ -58,7 +58,6 @@ public class method2 {
             result = 0;
         }
 
-
         //here my result is not undefined
         return result;
     }
