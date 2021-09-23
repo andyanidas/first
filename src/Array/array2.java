@@ -11,5 +11,14 @@ public class array2 {
             }
         }
         System.out.println("you have spend " + -1*totalSpend + "$ in this month");
+
+
     }
 }
+/*
+String iin length
+String iig tom useg bolgii
+String iig jijig useg bolgii
+String reverse bolgii (asd -> dsa)
+String ogogdood hergelgcheed sting avaad hoorond n zalga
+* */
