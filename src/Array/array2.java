@@ -11,10 +11,9 @@ public class array2 {
             }
         }
         System.out.println("you have spend " + -1*totalSpend + "$ in this month");
-
-
     }
 }
+
 /*
 String iin length
 String iig tom useg bolgii
