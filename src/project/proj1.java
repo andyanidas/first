@@ -56,6 +56,7 @@ public class proj1 {
             System.out.println("Guess a number between 0-100: ");
             guess = input.nextInt();
         }
+
         System.out.println("Congratulations you have successfully guessed the number in " + count + " tries.");
     }
 
