@@ -11,6 +11,7 @@ public class nestedFor2 {
         for(int i=0;i<Size; i++){
             for(int space=0;space<Size-i-1;space++){
                 System.out.print(" ");
+                Size++;
             }
             for(int star=0;star<Size; star++){
                 System.out.print('*');
